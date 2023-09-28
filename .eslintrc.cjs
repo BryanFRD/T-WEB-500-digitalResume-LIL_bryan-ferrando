@@ -18,7 +18,7 @@ module.exports = {
     ],
     'react/prop-types': [
       'enabled',
-      {ignore: 'ignore'}
+      { ignore: 'ignore' }
     ]
   },
 }
