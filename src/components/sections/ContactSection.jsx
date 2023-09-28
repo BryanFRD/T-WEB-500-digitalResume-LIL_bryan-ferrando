@@ -1,12 +1,12 @@
-import EducationIcon from '../icons/EducationIcon';
+import ContactIcon from '../icons/ContactIcon';
 
-const EducationSection = () => {
+const ContactSection = () => {
   return (
     <div className='min-h-screen'>
       <div className='px-8 py-16'>
         <div className='flex items-center gap-4 border-b-4 rounded w-min p-4 border-primary'>
-          <EducationIcon className='w-12 h-12 text-primary'/>
-          <h2 className='text-5xl'>Educations:</h2>
+          <ContactIcon className='w-12 h-12 text-primary'/>
+          <h2 className='text-5xl'>Contact:</h2>
         </div>
       </div>
       <div></div>
@@ -14,4 +14,4 @@ const EducationSection = () => {
   );
 };
 
-export default EducationSection;
+export default ContactSection;

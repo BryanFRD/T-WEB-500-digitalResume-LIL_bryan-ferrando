@@ -1,4 +1,5 @@
 import AboutMeSection from '../components/sections/AboutMeSection';
+import ContactSection from '../components/sections/ContactSection';
 import EducationSection from '../components/sections/EducationSection';
 import ExperienceSection from '../components/sections/ExperienceSection';
 import ProjectSection from '../components/sections/ProjectSection';
@@ -12,6 +13,7 @@ const HomePage = () => {
       <SkillSection />
       <ExperienceSection />
       <EducationSection />
+      <ContactSection />
     </div>
   );
 };
