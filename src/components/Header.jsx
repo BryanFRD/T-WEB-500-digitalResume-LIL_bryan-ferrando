@@ -1,6 +1,5 @@
 import ContactIcon from './icons/ContactIcon';
 import Navbar from './nav/Navbar';
-import NavbarLink from './nav/NavbarLink';
 
 const Header = () => {
   return (
