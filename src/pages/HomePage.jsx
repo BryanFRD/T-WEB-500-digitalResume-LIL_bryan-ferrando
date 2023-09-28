@@ -6,7 +6,7 @@ import SkillSection from '../components/sections/SkillSection';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='bg-background text-white'>
       <AboutMeSection />
       <ProjectSection />
       <SkillSection />
