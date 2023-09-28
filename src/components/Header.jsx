@@ -1,4 +1,3 @@
-import ContactIcon from './icons/ContactIcon';
 import Navbar from './nav/Navbar';
 
 const Header = () => {
