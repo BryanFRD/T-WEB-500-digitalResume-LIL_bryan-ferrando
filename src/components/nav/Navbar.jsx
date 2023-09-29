@@ -15,7 +15,9 @@ const Navbar = () => {
         <li><NavbarLink to="#about" icon={<AboutMeIcon />}>About&nbsp;Me</NavbarLink></li>
         <li><NavbarLink to="#projects" icon={<ProjectIcon />}>Projects</NavbarLink></li>
         <li><NavbarLink to="#skills" icon={<SkillIcon />}>Skills</NavbarLink></li>
+        {/* NO EXPERIENCES YET
         <li><NavbarLink to="#experiences" icon={<ExperienceIcon />}>Experiences</NavbarLink></li>
+        */}
         <li><NavbarLink to="#educations" icon={<EducationIcon />}>Educations</NavbarLink></li>
         <NavbarLink className="md:ms-auto" to="#contact" icon={<ContactIcon />}>Contact</NavbarLink>
       </ul>

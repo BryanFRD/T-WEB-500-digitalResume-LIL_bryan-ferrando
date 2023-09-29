@@ -11,7 +11,9 @@ const HomePage = () => {
       <AboutMeSection />
       <ProjectSection />
       <SkillSection />
-      <ExperienceSection />
+      {/* NO EXPERIENCES YET
+      <ExperienceSection /> 
+      */}
       <EducationSection />
       <ContactSection />
     </div>

@@ -1,5 +1,24 @@
+import EducationDetail from '../EducationDetail';
 import EducationIcon from '../icons/EducationIcon';
 import SectionTitle from './SectionTitle';
+
+const educations = [
+  {
+    name: 'MSc Pro',
+    place: 'Epitech, Lille',
+    year: '2023 - 2026'
+  },
+  {
+    name: 'DWWM',
+    place: 'AFPA, Cambrai',
+    year: '2022 - 2023'
+  },
+  {
+    name: 'DAEU',
+    place: 'Université Polytechnique Hauts-de-France, Cambrai',
+    year: '2020 - 2022'
+  }
+]
 
 const EducationSection = () => {
   return (
@@ -7,7 +26,9 @@ const EducationSection = () => {
       <SectionTitle title='Educations'>  
         <EducationIcon className='w-12 h-12 text-primary'/>
       </SectionTitle>
-      <div></div>
+      <div>
+        {educations.map(education => <EducationDetail education={education}/>)}
+      </div>
     </div>
   );
 };
