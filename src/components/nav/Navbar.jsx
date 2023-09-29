@@ -9,8 +9,8 @@ import NavbarLink from './NavbarLink';
 
 const Navbar = () => {
   return (
-    <nav className='md:col-span-9 flex w-full'>
-      <ul className='flex justify-around md:justify-normal gap-8 md:gap-4 w-full'>
+    <nav className='md:col-span-8 flex justify-center items-center w-full'>
+      <ul className='flex justify-around md:justify-normal gap-8 md:gap-4'>
         <li><NavbarLink to="/" icon={<HomeIcon />}>Home</NavbarLink></li>
         <li><NavbarLink to="#aboutme" icon={<AboutMeIcon />}>About&nbsp;Me</NavbarLink></li>
         <li><NavbarLink to="#project" icon={<ProjectIcon />}>Projects</NavbarLink></li>
@@ -19,7 +19,7 @@ const Navbar = () => {
         <li><NavbarLink to="#experiences" icon={<ExperienceIcon />}>Experiences</NavbarLink></li>
         */}
         <li><NavbarLink to="#education" icon={<EducationIcon />}>Educations</NavbarLink></li>
-        <NavbarLink className="md:ms-auto" to="#contact" icon={<ContactIcon />}>Contact</NavbarLink>
+        <NavbarLink to="#contact" icon={<ContactIcon />}>Contact</NavbarLink>
       </ul>
     </nav>
   );

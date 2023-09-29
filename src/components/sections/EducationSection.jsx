@@ -27,7 +27,7 @@ const EducationSection = ({className}) => {
         <EducationIcon className='w-12 h-12 text-primary'/>
       </SectionTitle>
       <div>
-        {educations.map(education => <EducationDetail education={education}/>)}
+        {educations.map((education, index) => <EducationDetail key={index} education={education}/>)}
       </div>
     </div>
   );

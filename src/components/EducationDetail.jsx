@@ -1,8 +1,8 @@
 const EducationDetail = ({education}) => {
   return (
     <div className='grid grid-cols-3'>
-      <div className='relative overflow-hidden w-full'>
-        <hr className='rotate-90 border-slate-600 border-[1px] w-full absolute left-1/4'/>
+      <div className='relative md:overflow-hidden h-full w-full'>
+        <hr className='rotate-90 mt-16 md:mt-0 border-slate-600 border-[1px] w-full absolute left-1/4'/>
         <div className='absolute right-[calc(25%-0.5rem)] top-6 flex items-center gap-4'>
           <div className='flex flex-col gap-2 absolute right-8'>
             {education.year.map((year, index) => <span key={index} className='text-lg'>{year}</span>)}
