@@ -6,17 +6,17 @@ const educations = [
   {
     name: 'MSc Pro',
     place: 'Epitech, Lille',
-    year: '2023 - 2026'
+    year: ['2023', '2024']
   },
   {
     name: 'DWWM',
     place: 'AFPA, Cambrai',
-    year: '2022 - 2023'
+    year: ['2022', '2023']
   },
   {
     name: 'DAEU',
     place: 'Université Polytechnique Hauts-de-France, Cambrai',
-    year: '2020 - 2022'
+    year: ['2020', '2022']
   }
 ]
 

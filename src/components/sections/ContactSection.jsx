@@ -7,7 +7,13 @@ const ContactSection = () => {
       <SectionTitle title='Contact'>  
         <ContactIcon className='w-12 h-12 text-primary'/>
       </SectionTitle>
-      <div></div>
+      <div>
+        <form action="">
+          <div>
+            <label htmlFor="">Firstname</label>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };
