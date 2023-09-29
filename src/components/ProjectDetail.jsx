@@ -9,7 +9,7 @@ const ProjectDetail = ({project}) => {
           <span>Check project on GitHub</span>
         </Link>
         <h3 className='absolute text-lg bg-background/40 py-1 px-4 shadow-lg rounded-br-lg text-ellipsis'>{project.name}</h3>
-        <img className='w-96' src={!project.name ? project.name : placeholder} alt={`${project.name} image`} />
+        <img className='w-96' src={project.img ? project.img : placeholder} alt={`${project.name} image`} />
         <p className='absolute right-0 bottom-0 text-right bg-background/40 py-1 px-2 shadow-lg rounded-tl-lg text-sm'>{project.techno}</p>
       </div>
       <div className='p-3 max-h-28'>
