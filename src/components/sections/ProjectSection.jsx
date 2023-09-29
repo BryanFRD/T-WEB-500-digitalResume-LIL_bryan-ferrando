@@ -26,9 +26,9 @@ const projects = [
   }
 ]
 
-const ProjectSection = () => {
+const ProjectSection = ({className}) => {
   return (
-    <div id='project' className='min-h-screen'>
+    <div id='project' className={`${className} min-h-screen py-8`}>
       <SectionTitle title='Projects'>
         <ProjectIcon className='w-12 h-12 text-primary'/>
       </SectionTitle>

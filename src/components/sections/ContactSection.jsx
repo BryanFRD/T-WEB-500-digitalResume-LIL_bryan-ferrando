@@ -1,18 +1,15 @@
+import ContactForm from '../ContactForm';
 import ContactIcon from '../icons/ContactIcon';
 import SectionTitle from './SectionTitle';
 
-const ContactSection = () => {
+const ContactSection = ({className}) => {
   return (
-    <div id='contact' className='min-h-screen'>
-      <SectionTitle title='Contact'>  
+    <div id='contact' className={`${className} min-h-screen py-8`}>
+      <SectionTitle title='Contact'>
         <ContactIcon className='w-12 h-12 text-primary'/>
       </SectionTitle>
-      <div>
-        <form action="">
-          <div>
-            <label htmlFor="">Firstname</label>
-          </div>
-        </form>
+      <div className='px-24'>
+        <ContactForm switchBg={className}/>
       </div>
     </div>
   );

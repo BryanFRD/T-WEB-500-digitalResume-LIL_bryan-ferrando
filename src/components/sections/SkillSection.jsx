@@ -77,9 +77,9 @@ const skills = [
   }
 ];
 
-const SkillSection = () => {
+const SkillSection = ({className}) => {
   return (
-    <div id='skill' className='min-h-screen'>
+    <div id='skill' className={`${className} min-h-screen py-8`}>
       <SectionTitle title="Skills">
         <SkillIcon className='w-12 h-12 text-primary'/>
       </SectionTitle>

@@ -9,13 +9,13 @@ const HomePage = () => {
   return (
     <div className='bg-background text-white'>
       <AboutMeSection />
-      <ProjectSection />
-      <SkillSection />
+      <ProjectSection className={'bg-backgrounddark'} />
+      <SkillSection className={''} />
       {/* NO EXPERIENCES YET
       <ExperienceSection /> 
       */}
-      <EducationSection />
-      <ContactSection />
+      <EducationSection className={'bg-backgrounddark'} />
+      <ContactSection className={''}/>
     </div>
   );
 };
