@@ -1,14 +1,12 @@
 import ExperienceIcon from '../icons/ExperienceIcon';
+import SectionTitle from './SectionTitle';
 
 const ExperienceSection = () => {
   return (
     <div className='min-h-screen'>
-      <div className='px-8 py-16'>
-        <div className='flex items-center gap-4 border-b-4 rounded w-min p-4 border-primary'>
-          <ExperienceIcon className='w-12 h-12 text-primary'/>
-          <h2 className='text-5xl'>Experiences:</h2>
-        </div>
-      </div>
+      <SectionTitle title='Experiences'>  
+        <ExperienceIcon className='w-12 h-12 text-primary'/>
+      </SectionTitle>
       <div></div>
     </div>
   );

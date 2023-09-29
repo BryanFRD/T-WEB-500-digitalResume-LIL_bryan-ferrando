@@ -1,5 +1,6 @@
 import ProjectDetail from '../ProjectDetail';
 import ProjectIcon from '../icons/ProjectIcon';
+import SectionTitle from './SectionTitle';
 
 const projects = [
   {
@@ -28,12 +29,9 @@ const projects = [
 const ProjectSection = () => {
   return (
     <div className='min-h-screen'>
-      <div className='px-8 py-16'>
-        <div className='flex items-center gap-4 border-b-4 rounded w-min p-4 border-primary'>
-          <ProjectIcon className='w-12 h-12 text-primary'/>
-          <h2 className='text-5xl'>Projects:</h2>
-        </div>
-      </div>
+      <SectionTitle title='Projects'>
+        <ProjectIcon className='w-12 h-12 text-primary'/>
+      </SectionTitle>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12'>
         {projects.map(project => <ProjectDetail key={project.id} project={project}/>)}
       </div>
