@@ -3,7 +3,7 @@ import SectionTitle from './SectionTitle';
 
 const ExperienceSection = () => {
   return (
-    <div className='min-h-screen'>
+    <div id='experience' className='min-h-screen'>
       <SectionTitle title='Experiences'>  
         <ExperienceIcon className='w-12 h-12 text-primary'/>
       </SectionTitle>

@@ -28,7 +28,7 @@ const projects = [
 
 const ProjectSection = () => {
   return (
-    <div className='min-h-screen'>
+    <div id='project' className='min-h-screen'>
       <SectionTitle title='Projects'>
         <ProjectIcon className='w-12 h-12 text-primary'/>
       </SectionTitle>

@@ -79,7 +79,7 @@ const skills = [
 
 const SkillSection = () => {
   return (
-    <div className='min-h-screen'>
+    <div id='skill' className='min-h-screen'>
       <SectionTitle title="Skills">
         <SkillIcon className='w-12 h-12 text-primary'/>
       </SectionTitle>

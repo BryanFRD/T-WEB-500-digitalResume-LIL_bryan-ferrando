@@ -1,6 +1,6 @@
 const AboutMeSection = () => {
   return (
-    <div className='min-h-screen flex flex-col justify-center'>
+    <div id='aboutme' className='min-h-screen flex flex-col justify-center'>
       <div className='px-12'>
         <div>
           <h2 className='text-5xl font-semibold'>
