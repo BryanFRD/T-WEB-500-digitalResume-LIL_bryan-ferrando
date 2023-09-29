@@ -10,6 +10,16 @@ import python from '../assets/skills/python.svg'
 import reactjs from '../assets/skills/reactjs.svg'
 import springboot from '../assets/skills/spring.svg'
 import symfony from '../assets/skills/symfony.svg'
+import scss from '../assets/skills/scss.svg'
+import tailwindcss from '../assets/skills/tailwindcss.svg'
+import bootstrap from '../assets/skills/bootstrap.svg'
+import nodejs from '../assets/skills/nodejs.svg'
+import sequelize from '../assets/skills/sequelize.svg'
+import graphql from '../assets/skills/graphql.svg'
+import socketio from '../assets/skills/socketio.svg'
+import reduxjs from '../assets/skills/reduxjs.svg'
+import docker from '../assets/skills/docker.svg'
+import git from '../assets/skills/git.svg'
 
 export const skillData = [
   {
@@ -23,9 +33,9 @@ export const skillData = [
     img: css
   },
   {
-    name: 'SASS',
+    name: 'SCSS',
     progress: 3.5,
-    img: sass
+    img: scss
   },
   {
     name: 'JavaScript',

@@ -5,8 +5,8 @@ const SkillDetail = ({skill}) => {
   
   useEffect(() => {
     setColor((skill.progress >= 4 ? 'green' : (skill.progress > 2 ? 'yellow' : 'red')));
-  }, [skill])
-  
+  }, [skill]);
+  // My progress bar doesn't apply my tailwind classes, I don't know why
   return (
     <div className='grid grid-cols-3 gap-4 mx-auto items-center'>
       <div className='flex items-center gap-4 col-span-2'>

@@ -12,8 +12,8 @@ const ProjectDetail = ({project}) => {
         <img className='max-w-96' src={project.img ? project.img : placeholder} alt={`${project.name} image`} />
         <p className='absolute right-0 bottom-0 text-right bg-background/40 py-1 px-2 shadow-lg rounded-tl-lg text-sm'>{project.techno}</p>
       </div>
-      <div className='p-3 max-h-28'>
-        <p>{project.description}</p>
+      <div className='p-3'>
+        <p className=''>{project.description}</p>
       </div>
     </div>
   );
