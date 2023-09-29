@@ -29,7 +29,7 @@ const SkillSection = ({className}) => {
         {skills.slice(0, (showAll ? undefined : 12)).map((skill, index) => <SkillDetail key={index} skill={skill} />)}
       </div>
       <div className='flex justify-center'>
-        <button className='px-4 py-2 rounded-md bg-primary text-white' onClick={() => setShowAll(!showAll)}>
+        <button className='px-4 py-2 rounded-md bg-green-600 text-white' onClick={() => setShowAll(!showAll)}>
           {showAll ? 'Show less' : 'Show more'}
         </button>
       </div>

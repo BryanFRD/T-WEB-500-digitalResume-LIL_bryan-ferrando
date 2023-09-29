@@ -4,7 +4,7 @@ const SkillDetail = ({skill}) => {
   const [color, setColor] = useState();
   
   useEffect(() => {
-    setColor((skill.progress >= 4 ? 'green' : (skill.progress >= 2 ? 'yellow' : 'red')));
+    setColor((skill.progress >= 4 ? 'green' : (skill.progress > 2 ? 'yellow' : 'red')));
   }, [skill])
   
   return (

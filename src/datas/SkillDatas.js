@@ -24,7 +24,7 @@ export const skillData = [
   },
   {
     name: 'SASS',
-    progress: 5,
+    progress: 3.5,
     img: css
   },
   {
@@ -39,7 +39,7 @@ export const skillData = [
   },
   {
     name: 'ReduxJS',
-    progress: 5,
+    progress: 4,
     img: css
   },
   {
@@ -94,27 +94,27 @@ export const skillData = [
   },
   {
     name: 'C#',
-    progress: 5,
-    img: css
+    progress: 3,
+    img: csharp
   },
   {
     name: 'Docker',
-    progress: 5,
-    img: css
-  },
-  {
-    name: 'Composer',
-    progress: 5,
-    img: css
+    progress: 3,
+    img: docker
   },
   {
     name: 'Git',
-    progress: 5,
-    img: css
+    progress: 4,
+    img: git
   },
   {
     name: 'Python',
     progress: 4,
     img: python
   },
+  {
+    name: 'Blazor',
+    progress: 2,
+    img: blazor
+  }
 ]
