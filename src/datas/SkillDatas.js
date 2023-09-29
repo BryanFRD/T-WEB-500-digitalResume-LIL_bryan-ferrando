@@ -1,14 +1,14 @@
 import blazor from '../assets/skills/blazor.svg'
 import csharp from '../assets/skills/csharp.svg'
 import css from '../assets/skills/css.svg'
-import express from '../assets/skills/express.svg'
+import expressjs from '../assets/skills/express.svg'
 import html from '../assets/skills/html.svg'
 import java from '../assets/skills/java.svg'
 import js from '../assets/skills/js.svg'
 import php from '../assets/skills/php.svg'
 import python from '../assets/skills/python.svg'
 import reactjs from '../assets/skills/reactjs.svg'
-import spring from '../assets/skills/spring.svg'
+import springboot from '../assets/skills/spring.svg'
 import symfony from '../assets/skills/symfony.svg'
 
 export const skillData = [
@@ -25,7 +25,7 @@ export const skillData = [
   {
     name: 'SASS',
     progress: 3.5,
-    img: css
+    img: sass
   },
   {
     name: 'JavaScript',
@@ -40,42 +40,42 @@ export const skillData = [
   {
     name: 'ReduxJS',
     progress: 4,
-    img: css
+    img: reduxjs
   },
   {
     name: 'Bootstrap',
     progress: 5,
-    img: css
+    img: bootstrap
   },
   {
     name: 'TailwindCSS',
     progress: 5,
-    img: css
+    img: tailwindcss
   },
   {
     name: 'NodeJS',
     progress: 5,
-    img: css
+    img: nodejs
   },
   {
     name: 'ExpressJS',
     progress: 5,
-    img: express
+    img: expressjs
   },
   {
     name: 'Sequelize',
     progress: 5,
-    img: css
+    img: sequelize
   },
   {
     name: 'GraphQL',
     progress: 5,
-    img: css
+    img: graphql
   },
   {
     name: 'SocketIO',
     progress: 5,
-    img: css
+    img: socketio
   },
   {
     name: 'PHP',
@@ -85,7 +85,7 @@ export const skillData = [
   {
     name: 'Springboot',
     progress: 4,
-    img: spring
+    img: springboot
   },
   {
     name: 'Java',
@@ -116,5 +116,10 @@ export const skillData = [
     name: 'Blazor',
     progress: 2,
     img: blazor
+  },
+  {
+    name: 'Symfony',
+    progress: 3,
+    img: symfony
   }
 ]
