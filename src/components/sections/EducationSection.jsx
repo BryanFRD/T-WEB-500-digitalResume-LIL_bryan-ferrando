@@ -24,7 +24,7 @@ const EducationSection = ({className}) => {
   return (
     <div id='education' className={`${className} min-h-screen py-8`}>
       <SectionTitle title='Educations'>  
-        <EducationIcon className='w-12 h-12 text-primary'/>
+        <EducationIcon className='hidden md:block w-12 h-12 text-primary'/>
       </SectionTitle>
       <div>
         {educations.map((education, index) => <EducationDetail key={index} education={education}/>)}

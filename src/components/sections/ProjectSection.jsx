@@ -27,7 +27,7 @@ const ProjectSection = ({className}) => {
   return (
     <div id='project' className={`${className} min-h-screen py-8`}>
       <SectionTitle title='Projects'>
-        <ProjectIcon className='w-12 h-12 text-primary'/>
+        <ProjectIcon className='hidden md:block w-12 h-12 text-primary'/>
       </SectionTitle>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12'>
         {projects.map((project, index) => <ProjectDetail key={index} project={project}/>)}

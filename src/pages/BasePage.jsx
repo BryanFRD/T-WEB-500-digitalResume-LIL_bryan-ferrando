@@ -5,7 +5,7 @@ import { Toaster } from 'react-hot-toast';
 
 const BasePage = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Header />
       <main className=''>
         <Outlet />

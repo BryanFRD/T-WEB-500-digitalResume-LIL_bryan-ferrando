@@ -10,7 +10,7 @@ import NavbarLink from './NavbarLink';
 const Navbar = () => {
   return (
     <nav className='md:col-span-8 flex justify-center items-center w-full'>
-      <ul className='flex justify-around md:justify-normal gap-8 md:gap-4'>
+      <ul className='flex justify-around md:justify-normal gap-8 md:gap-4 px-4'>
         <li><NavbarLink to="/" icon={<HomeIcon />}>Home</NavbarLink></li>
         <li><NavbarLink to="#aboutme" icon={<AboutMeIcon />}>About&nbsp;Me</NavbarLink></li>
         <li><NavbarLink to="#project" icon={<ProjectIcon />}>Projects</NavbarLink></li>

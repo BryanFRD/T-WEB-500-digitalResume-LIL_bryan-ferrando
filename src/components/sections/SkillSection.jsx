@@ -23,7 +23,7 @@ const SkillSection = ({className}) => {
   return (
     <div id='skill' className={`${className} min-h-screen py-8`}>
       <SectionTitle title="Skills">
-        <SkillIcon className='w-12 h-12 text-primary'/>
+        <SkillIcon className='hidden md:block w-12 h-12 text-primary'/>
       </SectionTitle>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 p-8'>
         {skills.slice(0, (showAll ? undefined : 12)).map((skill, index) => <SkillDetail key={index} skill={skill} />)}

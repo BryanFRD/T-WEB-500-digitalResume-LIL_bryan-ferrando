@@ -11,7 +11,7 @@ const ContactForm = ({switchBg}) => {
   }
   
   return (
-    <form ref={form} className='grid grid-cols-2 gap-8 container mx-auto' onSubmit={handleSubmit}>
+    <form ref={form} className='grid grid-cols-2 gap-8 container md:mx-auto' onSubmit={handleSubmit}>
       <div className='flex flex-col gap-2 col-span-2 md:col-span-1'>
         <label className='font-semibold' htmlFor="firstname">Firstname</label>
         <input id="firstname" className={`${switchBg ? 'bg-background' : 'bg-backgrounddark'} p-2 rounded-md`} type="text" name="firstname" required placeholder='John'/>

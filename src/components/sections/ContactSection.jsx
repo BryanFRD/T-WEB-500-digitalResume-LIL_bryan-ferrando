@@ -6,9 +6,9 @@ const ContactSection = ({className}) => {
   return (
     <div id='contact' className={`${className} min-h-screen py-8`}>
       <SectionTitle title='Contact'>
-        <ContactIcon className='w-12 h-12 text-primary'/>
+        <ContactIcon className='hidden md:block w-12 h-12 text-primary'/>
       </SectionTitle>
-      <div className='px-24'>
+      <div className='px-10 md:px-24'>
         <ContactForm switchBg={className}/>
       </div>
     </div>
