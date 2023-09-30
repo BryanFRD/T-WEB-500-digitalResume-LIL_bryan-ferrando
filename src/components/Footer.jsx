@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => {
   return (
-    <div className='p-2 pt-4 pb-24 flex gap-8 justify-center items-center bg-backgrounddark text-white font-semibold shadow-inner'>
+    <div className='p-2 pt-4 pb-24 md:pb-4 flex gap-8 justify-center items-center bg-backgrounddark text-white font-semibold shadow-inner'>
       <div className=''>
         <span>
           Ferrando Bryan
