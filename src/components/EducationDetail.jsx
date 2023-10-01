@@ -15,7 +15,7 @@ const EducationDetail = ({education}) => {
         <div className='md:hidden mx-auto flex gap-4 text-slate-400'>
           {education.year.map((year, index) => <span key={index} className='text-lg'>{year}</span>)}
         </div>
-        <span className='text-xl text-center'>{education.place}</span>
+        <span className='text-xl text-center md:text-left'>{education.place}</span>
       </div>
     </div>
   );
