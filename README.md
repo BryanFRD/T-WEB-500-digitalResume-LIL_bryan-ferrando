@@ -9,4 +9,5 @@ Currently, two official plugins are available:
 
 # How to run the program
 
+### npm install
 ### npm run dev
